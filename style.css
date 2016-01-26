@@ -370,3 +370,18 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+/*EDITS:*/
+.end-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(/img/end-bg.jpg) no-repeat center center scroll;
+    background-color: #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
