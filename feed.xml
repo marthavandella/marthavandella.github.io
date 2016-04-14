@@ -2,36 +2,72 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>All out ATL</title>
-    <description>All out ATL!</description>
+    <description>Mobilize to shut down the KKK! On April 23rd, the KKK plans to march on Stone Mountain, GA. Anti-racists all over the country are preparing to converge on Stone Mountain and stop the Klan. Get organized and spread the word: Everyone out against white supremacy!</description>
     <link>https://alloutatl.com//</link>
     <atom:link href="https://alloutatl.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Feb 2016 03:24:44 +0000</pubDate>
-    <lastBuildDate>Mon, 01 Feb 2016 03:24:44 +0000</lastBuildDate>
-    <generator>Jekyll v3.0.2</generator>
+    <pubDate>Thu, 14 Apr 2016 00:20:16 -0400</pubDate>
+    <lastBuildDate>Thu, 14 Apr 2016 00:20:16 -0400</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
-
+        <title>Anti-KKK coordination meeting</title>
+        <description>&lt;p&gt;
+Anti-KKK Coordinating Meeting&lt;br /&gt;
+Sunday, April 10 @ 5pm&lt;br /&gt;
+&lt;a href=&quot;http://murmurmedia.org/&quot;&gt;Murmur DIY Space&lt;/a&gt;&lt;br /&gt;
+100 Broad St, Downtown Atlanta&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+On Sunday, April 10, please join us at Murmur for a meeting to coordinate anti-racist action on April 23 at Stone Mountain Park. The anti-racist mobilization has been called in response to a white supremacist rally planned for the same day.&lt;!--more--&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Over the past few months, All Out Atlanta has been in contact with a wide variety of groups, including black community groups, activist organizations, sports clubs and motivated individuals (to name a few!). At this point, we&#39;re aware that many groups have plans, ideas, and desires for April 23rd. We hope everyone can get together on the 10th to outline plans against the white power rally and to coordinate diverse and effective responses. Hope to see you there!
+&lt;/p&gt;
+&lt;p&gt;
+Thanks to Murmur, DIY space &amp;amp; community resource, for hosting our meeting (murmurmedia.org). Murmur is located at 100 Broad St. in downtown Atlanta and is easily accessible by MARTA -- it&#39;s a few blocks from the Five Points Station. Some street parking is also available.
+&lt;/p&gt;
 </description>
-        <pubDate>Sun, 24 Jan 2016 20:54:41 +0000</pubDate>
-        <link>https://alloutatl.com//jekyll/update/2016/01/24/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">https://alloutatl.com//jekyll/update/2016/01/24/welcome-to-jekyll/</guid>
+        <pubDate>Tue, 05 Apr 2016 08:00:00 -0400</pubDate>
+        <link>https://alloutatl.com//update/2016/04/05/update/</link>
+        <guid isPermaLink="true">https://alloutatl.com//update/2016/04/05/update/</guid>
         
         
-        <category>jekyll</category>
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>One month to go...</title>
+        <description>&lt;p&gt;
+We are now one month out from April 23, when we plan to confront and stop a neo-Nazi and KKK-organized rally at Stone Mountain Park outside Atlanta GA. This is an update on how anti-racist organizing is moving along and how you can help to make it a success, with info for those travelling from out of town.&lt;!--more--&gt;
+&lt;/p&gt;
+&lt;p&gt;
+The goal of the All Out ATL mobilization is to shut down the KKK: to prevent them from rallying and from building their movement based on violence and intimidation. The anti-racist mobilization may involve confronting Klan members and the police who protect them, but there are plenty of ways to be involved. There is no single way to shut down the KKK; we encourage groups to arrive with their own plans of action.
+&lt;/p&gt;
+&lt;p&gt;
+All Out ATL will announce a meetup time and place for the morning of the 23rd at least one week in advance. To get the announcement, &lt;a href=&quot;/#contact&quot;&gt;sign up for emails&lt;/a&gt;, follow &lt;a href=&quot;https://twitter.com/alloutatlanta&quot;&gt;@alloutatlanta on Twitter&lt;/a&gt; and/or join the &lt;a href=&quot;https://www.facebook.com/events/965525166818640/&quot;&gt;event page on Facebook&lt;/a&gt;. Share the meetup information far and wide once it’s released.
+&lt;/p&gt;
+&lt;p&gt;
+We are asking people to:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Take April 23rd off work! Also, now is a good time to make arrangements for childcare.&lt;/li&gt;
+&lt;li&gt;Print outreach &lt;a href=&quot;/#join&quot;&gt;posters and flyers&lt;/a&gt; and distribute them in your neighborhood, school, workplace or anywhere people gather. Make the movement as visible as possible.&lt;/li&gt;
+&lt;li&gt;Raise funds. We are currently organizing an Atlanta Solidarity Fund for potential legal expenses from April 23rd.&lt;/li&gt;
+&lt;li&gt;Make materials, banners and signs with your friends. Also, talk together about how you will contribute to the action.&lt;/li&gt;
+&lt;li&gt;Organize discussions, presentations, film screenings and fundraisers in your community between now and April 23rd. If you’re hosting a public event, please let us know so we can spread the word.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;
+There will be space for out-of-towners to camp.  You should arrive with some basic needs already provided for. Bring a sleeping bag, clothes for marching in warm weather, and cash for supplies.  
+&lt;/p&gt;
+&lt;p&gt;
+See you on the 23rd!
+&lt;/p&gt;
+</description>
+        <pubDate>Wed, 23 Mar 2016 08:00:00 -0400</pubDate>
+        <link>https://alloutatl.com//update/2016/03/23/update/</link>
+        <guid isPermaLink="true">https://alloutatl.com//update/2016/03/23/update/</guid>
+        
         
         <category>update</category>
         
