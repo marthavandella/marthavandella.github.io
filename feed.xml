@@ -1,127 +1,30 @@
+---
+layout: null
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>All out ATL</title>
-    <description>Mobilize to shut down the KKK! On April 23rd, the KKK plans to march on Stone Mountain, GA. Anti-racists all over the country are preparing to converge on Stone Mountain and stop the Klan. Get organized and spread the word: Everyone out against white supremacy!</description>
-    <link>https://alloutatl.com//</link>
-    <atom:link href="https://alloutatl.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 Apr 2016 00:18:21 -0400</pubDate>
-    <lastBuildDate>Fri, 22 Apr 2016 00:18:21 -0400</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
-    
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+    {% for post in site.posts limit:10 %}
       <item>
-        <title>MAJOR UPDATE: One week to go</title>
-        <description>&lt;p&gt;
-It’s now one week until April 23rd, when we will confront and shut down the Klan/neo-Nazi rally at Stone Mountain Park outside Atlanta GA!&lt;br /&gt;
- 
-We’ve been coordinating with a broad coalition to make the anti-racist event on the 23rd a success. Below are some key updates:&lt;p&gt;
-
- &lt;!--more--&gt;
-
-&lt;ul class=&quot;nav&quot;&gt;
-    &lt;li&gt;
-    &lt;h3&gt;GATHERING SPOT ANNOUNCED&lt;/h3&gt;&lt;p&gt;On Saturday, April 23rd, anti-racists are assembling at 9AM at the corner of Main &amp;amp; Mountain St. in the city of Stone Mountain. Please arrive a bit early, as parking is limited and it may take some time to find space nearby.&lt;br /&gt;
-	&lt;p&gt;We have created a new outreach poster that shows the assembly point. A .pdf to print and distribute is here: https://alloutatl.com/img/noklanposter.pdf  Please make copies and spread these everywhere! An image to circulate online is at: https://pbs.twimg.com/media/CgG7SaZUMAA-pWU.jpg &lt;/p&gt;
-	
-	&lt;li&gt;
-	&lt;h3&gt;CONVERGENCE SPACE&lt;/h3&gt;&lt;p&gt;We will use our convergence space, located at No Man’s Land, 880 Woodrow St SW in Atlanta, to host workshops, discussions, and other events to prepare for the April 23rd action. Food will be provided and space for camping is available. The convergence space will be open all day on Thursday and Friday the 21st and 22nd--we encourage you to visit and spend time at the space as we prepare for Saturday the 23rd.&lt;br /&gt;
- 	Our convergence space is at No Man’s Land, 880 Woodrow St SW in Atlanta. Google Maps: https://www.google.com/maps/place/880+Woodrow+St+SW,+Atlanta,+GA+30310/&lt;br /&gt;
- 	A complete schedule of events at the convergence space will be announced soon, so please check the AllOutATL website, Twitter, and/or Facebook account regularly for details.&lt;/p&gt;
-	&lt;/li&gt;
-	&lt;li&gt;
-	&lt;h3&gt;LEGAL FUND&lt;/h3&gt;&lt;p&gt; We are also proactively raising funds to bail any anti-racist protesters who may be arrested in connection with the mobilization against the KKK/neo-Nazis at Stone Mountain. Consider making a donation at: https://actionnetwork.org/fundraising/legal-support-for-anti-kkk-protesters&lt;br /&gt;
- 	If any funds are left over in this fund after the April 23rd mobilization, they will be put towards legal support for protesters in Atlanta going forward.&lt;/p&gt;
-	&lt;/li&gt;
-	&lt;li&gt;
-	&lt;h3&gt;SUGGESTED READING&lt;/h3&gt;&lt;p&gt;If you have time for extra reading, we encourage you to look at this news article about the “Rock Stone Mountain” racist rally and its coordination with neo-Nazis who are protesting in Rome, Georgia on the same day: http://www.northwestgeorgianews.com/rome/news/local/rome-white-rights-rally-timed-with-stone-mountain-event/article_5abd0d10-0132-11e6-a684-239cf726ce16.html&lt;br /&gt;
- 
-	Since we do not expect the white supremacists rallying at Stone Mountain to arrive in Klan robes, we also encourage you to read this article on recognizing white power symbols: http://makingnoiseinthesouth.com/index.php/2015/11/07/from-antifa-atlanta-far-right-threat-on-gsu-campus-in-atlanta/&lt;/p&gt;
-	&lt;/li&gt;
-
-	&lt;li&gt;
-	 &lt;h3&gt;PROMO VIDEO&lt;/h3&gt;&lt;p&gt;Finally, we love the promotional video that was created for our mobilization. If you haven’t already seen it, check https://vimeo.com/162557418 and share with your friends.&lt;p&gt;
-	
- 
-	&lt;p&gt;We look forward to seeing you soon!&lt;/p&gt;
- 
-	&lt;h5&gt;&lt;a href=&quot;alloutatl.com&quot;&gt;alloutatl.com&lt;/a&gt;&lt;br /&gt;
-	&lt;a href=&quot;facebook.com/events/965525166818640/&quot;&gt;&quot;facebook.com/events/965525166818640/&quot;&lt;/a&gt;&lt;br /&gt;
-	&lt;a href=&quot;twitter.com/alloutatlanta&quot;&gt;twitter.com/alloutatlanta&lt;/a&gt;&lt;/h5&gt;
-	
-&lt;/p&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 16 Apr 2016 08:00:00 -0400</pubDate>
-        <link>https://alloutatl.com//update/2016/04/16/update/</link>
-        <guid isPermaLink="true">https://alloutatl.com//update/2016/04/16/update/</guid>
-        
-        
-        <category>update</category>
-        
+        <title>{{ post.title | xml_escape }}</title>
+        <description>{{ post.content | xml_escape }}</description>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        {% for tag in post.tags %}
+        <category>{{ tag | xml_escape }}</category>
+        {% endfor %}
+        {% for cat in post.categories %}
+        <category>{{ cat | xml_escape }}</category>
+        {% endfor %}
       </item>
-    
-      <item>
-        <title>Anti-KKK coordination meeting</title>
-        <description>&lt;p&gt;
-Anti-KKK Coordinating Meeting&lt;br /&gt;
-Sunday, April 10 @ 5pm&lt;br /&gt;
-&lt;a href=&quot;http://murmurmedia.org/&quot;&gt;Murmur DIY Space&lt;/a&gt;&lt;br /&gt;
-100 Broad St, Downtown Atlanta&lt;br /&gt;
-&lt;/p&gt;
-&lt;p&gt;
-On Sunday, April 10, please join us at Murmur for a meeting to coordinate anti-racist action on April 23 at Stone Mountain Park. The anti-racist mobilization has been called in response to a white supremacist rally planned for the same day.&lt;!--more--&gt;
-&lt;/p&gt;
-&lt;p&gt;
-Over the past few months, All Out Atlanta has been in contact with a wide variety of groups, including black community groups, activist organizations, sports clubs and motivated individuals (to name a few!). At this point, we&#39;re aware that many groups have plans, ideas, and desires for April 23rd. We hope everyone can get together on the 10th to outline plans against the white power rally and to coordinate diverse and effective responses. Hope to see you there!
-&lt;/p&gt;
-&lt;p&gt;
-Thanks to Murmur, DIY space &amp;amp; community resource, for hosting our meeting (murmurmedia.org). Murmur is located at 100 Broad St. in downtown Atlanta and is easily accessible by MARTA -- it&#39;s a few blocks from the Five Points Station. Some street parking is also available.
-&lt;/p&gt;
-</description>
-        <pubDate>Tue, 05 Apr 2016 08:00:00 -0400</pubDate>
-        <link>https://alloutatl.com//update/2016/04/05/update/</link>
-        <guid isPermaLink="true">https://alloutatl.com//update/2016/04/05/update/</guid>
-        
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>One month to go...</title>
-        <description>&lt;p&gt;
-We are now one month out from April 23, when we plan to confront and stop a neo-Nazi and KKK-organized rally at Stone Mountain Park outside Atlanta GA. This is an update on how anti-racist organizing is moving along and how you can help to make it a success, with info for those travelling from out of town.&lt;!--more--&gt;
-&lt;/p&gt;
-&lt;p&gt;
-The goal of the All Out ATL mobilization is to shut down the KKK: to prevent them from rallying and from building their movement based on violence and intimidation. The anti-racist mobilization may involve confronting Klan members and the police who protect them, but there are plenty of ways to be involved. There is no single way to shut down the KKK; we encourage groups to arrive with their own plans of action.
-&lt;/p&gt;
-&lt;p&gt;
-All Out ATL will announce a meetup time and place for the morning of the 23rd at least one week in advance. To get the announcement, &lt;a href=&quot;/#contact&quot;&gt;sign up for emails&lt;/a&gt;, follow &lt;a href=&quot;https://twitter.com/alloutatlanta&quot;&gt;@alloutatlanta on Twitter&lt;/a&gt; and/or join the &lt;a href=&quot;https://www.facebook.com/events/965525166818640/&quot;&gt;event page on Facebook&lt;/a&gt;. Share the meetup information far and wide once it’s released.
-&lt;/p&gt;
-&lt;p&gt;
-We are asking people to:&lt;br /&gt;
-&lt;ul&gt;
-&lt;li&gt;Take April 23rd off work! Also, now is a good time to make arrangements for childcare.&lt;/li&gt;
-&lt;li&gt;Print outreach &lt;a href=&quot;/#join&quot;&gt;posters and flyers&lt;/a&gt; and distribute them in your neighborhood, school, workplace or anywhere people gather. Make the movement as visible as possible.&lt;/li&gt;
-&lt;li&gt;Raise funds. We are currently organizing an Atlanta Solidarity Fund for potential legal expenses from April 23rd.&lt;/li&gt;
-&lt;li&gt;Make materials, banners and signs with your friends. Also, talk together about how you will contribute to the action.&lt;/li&gt;
-&lt;li&gt;Organize discussions, presentations, film screenings and fundraisers in your community between now and April 23rd. If you’re hosting a public event, please let us know so we can spread the word.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;p&gt;
-There will be space for out-of-towners to camp.  You should arrive with some basic needs already provided for. Bring a sleeping bag, clothes for marching in warm weather, and cash for supplies.  
-&lt;/p&gt;
-&lt;p&gt;
-See you on the 23rd!
-&lt;/p&gt;
-</description>
-        <pubDate>Wed, 23 Mar 2016 08:00:00 -0400</pubDate>
-        <link>https://alloutatl.com//update/2016/03/23/update/</link>
-        <guid isPermaLink="true">https://alloutatl.com//update/2016/03/23/update/</guid>
-        
-        
-        <category>update</category>
-        
-      </item>
-    
+    {% endfor %}
   </channel>
 </rss>
